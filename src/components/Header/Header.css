@@ -23,6 +23,7 @@
   font-size: inherit;
 }
 
+
 @media (min-width: 500px) {
   .header {
     text-align: left;
@@ -33,5 +34,11 @@
   .article {
     margin: 3.5em auto 0;
     padding: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
   }
 }
